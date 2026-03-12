@@ -11,7 +11,7 @@ let h2=document.querySelector("h2");
 let started=false;
 let level=0;
 
-document.addEventListener("keypress",function(){
+document.addEventListener("touchstart",function(){
     if(started==false){
         console.log("Game Started");
         started=true;
@@ -83,4 +83,5 @@ function reset(){
     userSeq=[];
 
 }
+
 
